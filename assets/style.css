@@ -102,7 +102,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #000;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -242,6 +242,22 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+/* CSS FOOTER */
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: #F6D2B8;
+}
+
+footer li {
+	list-style: none;
 }
 
 @media all and (max-width: 1180px) {
