@@ -67,8 +67,9 @@ body {
 	z-index: 0;
 }
 
-.picture img {
+.picture img, .auto-size-slide {
 	width: 100%;
+	height: auto;
 
 }
 #about-me {
